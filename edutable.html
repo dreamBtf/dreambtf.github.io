@@ -1,0 +1,184 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<style type="text/css">
+		table{
+		border:2px solid;
+		border-spacing:0;
+		border-color:black;
+		/* background-color:yellow; */
+
+		}
+		tr{
+			text-align:center;
+		}
+		th {
+			background-color: #04AA6D;
+			color: white;
+		}
+
+		td:hover{
+			background-color: coral;
+		}
+		th, td {
+			padding: 5px;
+			border: 1px solid #ddd;
+			/* border-bottom: 1px solid #ddd; */
+		} 
+
+		
+
+		.h1{
+			margin:1px;
+			background-color:#F0FFFF;
+		}
+		.h2{
+			margin-left:20px;
+		}
+		.h3{
+			margin-left:20px;
+		}
+		p{
+			margin:0px;
+		}
+		/* lr rgb(253, 235, 236)
+    o rgb(251, 236, 221)
+    y rgb(251, 243, 219)
+    lg  rgb(237, 243, 236)
+    lb  rgb(231, 243, 248)
+    lp rgba(244, 240, 247, 0.8)
+    lp  rgba(144, 101, 176, 1) 
+	 */
+
+/* border="1px" align="center" cellspacing="0" bordercolor="black" bgcolor="yellow" */
+	</style>
+	<script type="text/javascript">
+		function ds(obj){
+			console.log(obj, obj.parentNode.getElementsByTagName("div")[0], obj.style.display)
+			var id = obj.parentNode.getElementsByTagName("div")[0];
+			if(id.style.display==="none")
+				id.style.display = "block"
+			else
+				id.style.display = "none"
+		}
+		function color(){
+			var divs = document.getElementsByClassName("h1")
+			var colors = ["mistyrose", "bisque", "lightyellow", "lightgreen", "lightblue", "plum", "pink"];
+			console.log(divs, divs.length)
+			for (var i = 0; i < divs.length; i++) {
+				console.log(i)
+				divs[i].style.backgroundColor = colors[i];
+			}
+		}
+		window.onload = function(){
+			color();
+		}
+
+	</script>
+</head>
+	<body>
+		<div class="h1"><p onclick="ds(this)">第一章 教育及其发展</p></div>
+		<div class="h1"><p onclick="ds(this)">第二章 教育与社会发展</p></div>
+		<div class="h1"><p onclick="ds(this)">第三章 教育与个体的发展</p></div>
+
+		<div class="h1"><p onclick="ds(this)">第四章 教育目的</p></div>
+		<div class="h1"><p onclick="ds(this)">第五章 学校教育制度</p>
+			<div class="h2"><p onclick="ds(this)">第二节 学制的形成与发展</p>
+				<div>
+					<table align="center" >
+						<tr><th width="12%">学制</th><th width="22%">壬寅</th><th width="22%">癸卯</th><th width="22%">壬子癸丑</th><th width="22%">壬戌</th></tr>
+						<tr><td></td><td>1902</td><td>1904</td><td>1912</td><td>1922</td></tr>
+						<tr><td></td><td colspan="3">日本</td><td>美国</td></tr>
+						<tr><td></td><td colspan="2">忽视女子教育</td><td>男女同校不同课</td><td>同校且同课</td></tr>
+						<tr><td></td><td>颁布未实施现代学制</td><td>颁布且实施</td><td>第一个具有资本性质的学制</td><td>首个兼顾就业和升学的学制</td></tr>
+						<tr><td></td><td></td><td>修业时间最长</td><td></td><td>沿用时间最长</td></tr>
+						<tr><td></td><td></td><td>首次职业教育</td><td></td><td>首次就业和升学兼顾</td></tr>
+						<tr><td></td><td>没有义务教育</td><td>明确义务教育，无提及义务时间</td><td>明确4年</td><td></td></tr>
+						<tr><td></td><td>尊孔读经</td><td>废除尊孔读经</td><td></td><td></td></tr>
+						<tr><td></td><td></td><td>张之洞、荣庆、张百熙</td><td>蔡元培</td><td></td></tr>
+					</table>
+				</div>
+			</div>
+		</div>
+		<div class="h1"><p onclick="ds(this)">第六章 课程</p></div>
+		<div class="h1"><p onclick="ds(this)">第七章 教师与学生</p></div>
+
+		<div class="h1"><p onclick="ds(this)">第八章 教学</p>
+			<div class="h2"><p onclick="ds(this)">第一节 教学概述</p>
+				<div class="h3"><p onclick="ds(this)">四、中小学教学改革的趋势</p>
+					<div>
+						<table align="center" >
+							<tr><td rowspan="3">我国</td><td>1.教学目标指向从“双基”走向“三维目标”“核心素养”</td><td></td></tr>
+							<tr><td>2 教学组织形式从“单一”走向“多样化”</td><td>小班化<br>马蹄、圆桌</td></tr>
+							<tr><td>3.教学评价走向“关注目标”与“关注价值”并重</td><td>重视评价的价值</td></tr>
+							<tr><td rowspan="3">当代世界</td><td>1.教学理念的变革</td><td>公民意识、小班分层<br>民主开放、重视教学效率</td></tr>
+							<tr><td>2 教学方法的改革</td><td>新的教学方法</td></tr>
+							<tr><td>3.信息技术引起的教学改革</td><td>人工智能、智慧课堂</td></tr>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="h1"><p onclick="ds(this)">第九章 德育</p></div>
+		<div class="h1"><p onclick="ds(this)">第十章 班级管理与班主任工作</p></div>
+		<div>
+			<table align="center" >
+					<tr><th width="4%"></th><th width="24%">维度</th><th width="24%">过程</th><th width="24%">影响因素</th><th width="24%">结果</th></tr>
+					<tr><td rowspan="2">区别</td><td>品德过程</td><td>学生个体品德自我发展过程</td><td>各种因素影响</td><td>可能与社会要求相一致，也可能不一致</td></tr>
+					<tr><td>德育过程</td><td>育者对受教育者的教育过程</td><td>目的、有计划、有组织的教育影响</td><td>思想品德与社会要求相一致</td></tr>
+					<tr><td>联系</td><td colspan="4">二者的关系实质上是教育与发展的关系</td></tr>
+
+			</table>
+			<table align="center" >
+				<tr><th width="12%">教学模式</th><th width="24%">核心观点/代表人物</th><th width="64%">教学步骤 / 教学环节 /操作程序</th></tr>
+				<tr><td>范例教学模式</td><td>德国教育实践家瓦·根舍因提出</td><td style="text-align:left;">①范例性地阐明“个”的阶段<br>
+					②范例性地阐明“类型”“类的阶段。<br>
+					③范例性地理解规律性的阶段<br>
+					④范例性地掌握关于世界的经验和生活的经验的阶段。</td></tr>
+
+				<tr><td>抛锚式教学模式</td><td>“实例式教学”“基于问题的教学”“情境性教学”</td><td style="text-align:left;">(口诀: 设定字写小)<br>
+					①创设情境;<br>
+					②确定问题;<br>
+					③自主学习;<br>
+					④协作学习;<br>
+					⑤效果评价;</td></tr>
+
+				<tr><td>探究-发现教学模式</td><td>布鲁纳的认知结构学习理论</td><td style="text-align:left;">(口诀: 文社燕姐)
+					问题-假设-验证-总结提高</td></tr>
+
+				<tr><td>有意义接受学习模式</td><td>奥苏贝尔的认知同化学习理论</td><td style="text-align:left;">(口诀: 知心郑姐)<br>
+					①呈现先行组织者;<br>
+					②呈现新学习内容;<br>
+					③知识的整合协调;<br>
+					④应用知识解决问题</td></tr>
+
+				<tr><td>掌握学习的教学模式</td><td>美国心理学家和教育学家布卢姆</td><td style="text-align:left;">①诊断性评价;<br>
+					②实施集体教学;<br>
+					③针对所学的单元进行形成性测验;<br>
+					④让已经掌握的学生进行巩固性、扩展性的学习，对未掌握的学生进行帮助和矫正，再次测验,直至达到掌握目标，掌握正确率达到 80%~100%即为通过;<br>
+					⑤进入下一单元的学习;<br>
+					⑥在一学期结束或几个章节全部内容学习完毕后进行总结性测验。</td></tr>
+
+				<tr><td>传递-接受教学模式</td><td>教学是学生在教师指导下的一种对客观世界的认识活动</td><td style="text-align:left;">(口诀: 腹肌新贡茶)
+					复习旧课—激发学生动机—讲授新知识—巩固运用—检查评价。</td></tr>
+
+
+				<tr><td>非指导性教学模式</td><td>美国心理学家罗杰斯将其心理治疗观推广到教育中</td><td style="text-align:left;">创设情境-开放性探索-个人或小组鉴别。</td></tr>
+
+				<tr><td>情境 -陶冶式教学模式</td><td>吸取洛扎诺夫的暗示教学理论</td><td style="text-align:left;">(口诀: 设宴总结)
+					创设情境-情境体验-总结转化</td></tr>
+
+				<tr><td>支架教学模式</td><td>最近发展区理论</td><td style="text-align:left;">(口诀: 琴键探学校)<br>
+					①创建教学情景;<br>
+					②搭建教学支架;<br>
+					③独立探索研究;<br>
+					④合作互助学习;<br>
+					⑤评估学习效果</td></tr>
+			</table>
+		</div>
+
+
+	</body>
+
+</html>
